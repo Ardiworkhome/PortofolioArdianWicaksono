@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.container {
+  width: 1000px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container a {
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.hero img {
+  width: 100%;
+}
+
+main {
+  text-align: justify;
+}
