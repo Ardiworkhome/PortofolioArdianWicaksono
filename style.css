@@ -1,6 +1,8 @@
 *{
   margin: 0;
   padding: 0;
+  text-align: center;
+  color: white;
 }
 
 .container{
@@ -8,17 +10,6 @@
   padding: 5px;
   margin: 25px auto;
   border: 5px solid black;
-  text-align: center;
-  color: white;
-  box-sizing: border-box;
-}
-
-.sidebar{
-  float: left;
-  box-sizing: border-box;
-  width: 40%;
-}
-.content{
   box-sizing: border-box;
 }
 
@@ -27,6 +18,14 @@ header{
   background-color: blueviolet;
 }
 
+
+.sidebar{
+  float: left;
+  box-sizing: border-box;
+  width: 40%;
+}
+
+
 aside{
   padding: 60px;
   background-color: royalblue;
@@ -34,13 +33,13 @@ aside{
 }
 
 nav{
-  padding: 103.1px;
+  padding: 102px;
   background-color: red;
-  box-sizing: border-box;
+ 
 }
 
 main{
-  padding: 172px;
+  padding: 171.5px;
   background-color: chocolate;
   float: right;
   width: 60%;
